@@ -1,0 +1,43 @@
+.header{
+    display: flex; /*it makes items in a single straight row*/
+    align-items: center;/*it makes the items in a flexbox at center at one align*/
+    justify-content: space-between;/*it creates space between every children container inside header container*/
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 100;/*it makes the header appear on the top */
+    background-color: white;
+}
+.header_logo{
+    height: 35px;
+    object-fit: contain;/*note--> read about this property*/
+    margin-left: 25px;
+}
+.header_left{
+    display: flex;
+    align-items: center;
+}
+.header_input{
+    display: flex;
+    align-items: center;
+    width: 40%;
+    border: 1px solid lightgray;
+}
+.header_icon{
+    margin-right: 8px;
+}
+.header_inputbutton{
+    width: 50px !important ;
+    background-color: white;
+    border-left: 1px lightgray;
+    color: gray;
+}
+.header_icons{
+    display: flex;
+    align-items: center;
+}
+.header_input > input{
+    flex: 1;
+    border: none;/*it removes the line of the input box*/
+    padding: 3px;
+}
